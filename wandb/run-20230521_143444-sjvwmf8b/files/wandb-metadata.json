@@ -1,0 +1,55 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.1",
+    "heartbeatAt": "2023-05-21T09:04:45.875377",
+    "startedAt": "2023-05-21T09:04:44.728713",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-wp",
+        "Assignment 3",
+        "-we",
+        "cs22m006",
+        "-es",
+        "128",
+        "-bs",
+        "256",
+        "--cell_type",
+        "LSTM",
+        "--epochs",
+        "1"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\adars\\OneDrive\\Desktop\\code\\PRML\\Assignements\\Assignment3\\trainWithoutAttention.py",
+    "codePath": "PRML\\Assignements\\Assignment3\\trainWithoutAttention.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "adarshgupta6560@gmail.com",
+    "root": "C:/Users/adars/OneDrive/Desktop/code",
+    "host": "Adarsh_Gupta",
+    "username": "adars",
+    "executable": "C:\\Users\\adars\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "total": 475.69237899780273,
+        "used": 142.3783416748047
+    },
+    "memory": {
+        "total": 15.788383483886719
+    }
+}

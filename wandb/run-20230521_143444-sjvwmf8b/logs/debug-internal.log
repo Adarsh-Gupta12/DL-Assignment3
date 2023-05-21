@@ -1,0 +1,40 @@
+2023-05-21 14:34:44,765 INFO    StreamThr :11120 [internal.py:wandb_internal():87] W&B internal server running at pid: 11120, started at: 2023-05-21 14:34:44.764199
+2023-05-21 14:34:44,768 DEBUG   HandlerThread:11120 [handler.py:handle_request():144] handle_request: status
+2023-05-21 14:34:44,796 INFO    WriterThread:11120 [datastore.py:open_for_write():85] open: C:\Users\adars\OneDrive\Desktop\code\PRML\Assignements\Assignment3\wandb\run-20230521_143444-sjvwmf8b\run-sjvwmf8b.wandb
+2023-05-21 14:34:44,796 DEBUG   SenderThread:11120 [sender.py:send():336] send: header
+2023-05-21 14:34:44,804 DEBUG   SenderThread:11120 [sender.py:send():336] send: run
+2023-05-21 14:34:45,626 INFO    SenderThread:11120 [dir_watcher.py:__init__():219] watching files in: C:\Users\adars\OneDrive\Desktop\code\PRML\Assignements\Assignment3\wandb\run-20230521_143444-sjvwmf8b\files
+2023-05-21 14:34:45,627 INFO    SenderThread:11120 [sender.py:_start_run_threads():1078] run started: sjvwmf8b with start time 1684659884.776445
+2023-05-21 14:34:45,627 DEBUG   SenderThread:11120 [sender.py:send_request():363] send_request: summary_record
+2023-05-21 14:34:45,627 INFO    SenderThread:11120 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-05-21 14:34:45,639 DEBUG   HandlerThread:11120 [handler.py:handle_request():144] handle_request: check_version
+2023-05-21 14:34:45,639 DEBUG   SenderThread:11120 [sender.py:send_request():363] send_request: check_version
+2023-05-21 14:34:45,855 DEBUG   HandlerThread:11120 [handler.py:handle_request():144] handle_request: run_start
+2023-05-21 14:34:45,860 DEBUG   HandlerThread:11120 [system_info.py:__init__():31] System info init
+2023-05-21 14:34:45,860 DEBUG   HandlerThread:11120 [system_info.py:__init__():46] System info init done
+2023-05-21 14:34:45,860 INFO    HandlerThread:11120 [system_monitor.py:start():183] Starting system monitor
+2023-05-21 14:34:45,860 INFO    SystemMonitor:11120 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-05-21 14:34:45,860 INFO    HandlerThread:11120 [system_monitor.py:probe():204] Collecting system info
+2023-05-21 14:34:45,872 INFO    SystemMonitor:11120 [interfaces.py:start():187] Started cpu monitoring
+2023-05-21 14:34:45,875 DEBUG   HandlerThread:11120 [system_info.py:probe():195] Probing system
+2023-05-21 14:34:45,875 INFO    SystemMonitor:11120 [interfaces.py:start():187] Started disk monitoring
+2023-05-21 14:34:45,889 INFO    SystemMonitor:11120 [interfaces.py:start():187] Started memory monitoring
+2023-05-21 14:34:45,898 INFO    SystemMonitor:11120 [interfaces.py:start():187] Started network monitoring
+2023-05-21 14:34:45,898 DEBUG   HandlerThread:11120 [system_info.py:_probe_git():180] Probing git
+2023-05-21 14:34:45,959 DEBUG   HandlerThread:11120 [system_info.py:_probe_git():188] Probing git done
+2023-05-21 14:34:45,959 DEBUG   HandlerThread:11120 [system_info.py:probe():240] Probing system done
+2023-05-21 14:34:45,959 DEBUG   HandlerThread:11120 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.1', 'heartbeatAt': '2023-05-21T09:04:45.875377', 'startedAt': '2023-05-21T09:04:44.728713', 'docker': None, 'cuda': None, 'args': ('-wp', 'Assignment 3', '-we', 'cs22m006', '-es', '128', '-bs', '256', '--cell_type', 'LSTM', '--epochs', '1'), 'state': 'running', 'program': 'C:\\Users\\adars\\OneDrive\\Desktop\\code\\PRML\\Assignements\\Assignment3\\trainWithoutAttention.py', 'codePath': 'PRML\\Assignements\\Assignment3\\trainWithoutAttention.py', 'git': {'remote': None, 'commit': None}, 'email': 'adarshgupta6560@gmail.com', 'root': 'C:/Users/adars/OneDrive/Desktop/code', 'host': 'Adarsh_Gupta', 'username': 'adars', 'executable': 'C:\\Users\\adars\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2419.0, 'min': 0.0, 'max': 2419.0}, 'cpu_freq_per_core': [{'current': 2419.0, 'min': 0.0, 'max': 2419.0}], 'disk': {'total': 475.69237899780273, 'used': 142.3783416748047}, 'memory': {'total': 15.788383483886719}}
+2023-05-21 14:34:45,960 INFO    HandlerThread:11120 [system_monitor.py:probe():214] Finished collecting system info
+2023-05-21 14:34:45,960 INFO    HandlerThread:11120 [system_monitor.py:probe():217] Publishing system info
+2023-05-21 14:34:45,960 DEBUG   HandlerThread:11120 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-21 14:34:45,960 DEBUG   HandlerThread:11120 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-21 14:34:45,964 INFO    HandlerThread:11120 [system_monitor.py:probe():219] Finished publishing system info
+2023-05-21 14:34:45,976 DEBUG   SenderThread:11120 [sender.py:send():336] send: files
+2023-05-21 14:34:45,976 INFO    SenderThread:11120 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-05-21 14:34:45,997 DEBUG   HandlerThread:11120 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-21 14:34:45,997 DEBUG   SenderThread:11120 [sender.py:send_request():363] send_request: stop_status
+2023-05-21 14:34:46,326 DEBUG   SenderThread:11120 [sender.py:send():336] send: telemetry
+2023-05-21 14:34:46,638 INFO    Thread-17 :11120 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\adars\OneDrive\Desktop\code\PRML\Assignements\Assignment3\wandb\run-20230521_143444-sjvwmf8b\files\requirements.txt
+2023-05-21 14:34:46,638 INFO    Thread-17 :11120 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\adars\OneDrive\Desktop\code\PRML\Assignements\Assignment3\wandb\run-20230521_143444-sjvwmf8b\files\wandb-metadata.json
+2023-05-21 14:34:46,638 INFO    Thread-17 :11120 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\adars\OneDrive\Desktop\code\PRML\Assignements\Assignment3\wandb\run-20230521_143444-sjvwmf8b\files\wandb-summary.json
+2023-05-21 14:34:46,978 INFO    wandb-upload_0:11120 [upload_job.py:push():138] Uploaded file C:\Users\adars\AppData\Local\Temp\tmpxfgq5yi1wandb\xxplhg3j-wandb-metadata.json

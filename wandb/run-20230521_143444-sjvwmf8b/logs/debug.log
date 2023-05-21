@@ -1,0 +1,18 @@
+2023-05-21 14:34:44,737 INFO    MainThread:12164 [wandb_setup.py:_flush():76] Configure stats pid to 12164
+2023-05-21 14:34:44,738 INFO    MainThread:12164 [wandb_setup.py:_flush():76] Loading settings from C:\Users\adars\.config\wandb\settings
+2023-05-21 14:34:44,738 INFO    MainThread:12164 [wandb_setup.py:_flush():76] Loading settings from C:\Users\adars\OneDrive\Desktop\code\PRML\Assignements\Assignment3\wandb\settings
+2023-05-21 14:34:44,738 INFO    MainThread:12164 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-21 14:34:44,738 INFO    MainThread:12164 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'PRML\\Assignements\\Assignment3\\trainWithoutAttention.py', 'program': 'C:\\Users\\adars\\OneDrive\\Desktop\\code\\PRML\\Assignements\\Assignment3\\trainWithoutAttention.py'}
+2023-05-21 14:34:44,738 INFO    MainThread:12164 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-05-21 14:34:44,738 INFO    MainThread:12164 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-05-21 14:34:44,740 INFO    MainThread:12164 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\adars\OneDrive\Desktop\code\PRML\Assignements\Assignment3\wandb\run-20230521_143444-sjvwmf8b\logs\debug.log
+2023-05-21 14:34:44,741 INFO    MainThread:12164 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\adars\OneDrive\Desktop\code\PRML\Assignements\Assignment3\wandb\run-20230521_143444-sjvwmf8b\logs\debug-internal.log
+2023-05-21 14:34:44,742 INFO    MainThread:12164 [wandb_init.py:init():546] calling init triggers
+2023-05-21 14:34:44,743 INFO    MainThread:12164 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-05-21 14:34:44,743 INFO    MainThread:12164 [wandb_init.py:init():602] starting backend
+2023-05-21 14:34:44,744 INFO    MainThread:12164 [wandb_init.py:init():606] setting up manager
+2023-05-21 14:34:44,759 INFO    MainThread:12164 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-05-21 14:34:44,776 INFO    MainThread:12164 [wandb_init.py:init():613] backend started and connected
+2023-05-21 14:34:44,796 INFO    MainThread:12164 [wandb_init.py:init():701] updated telemetry
+2023-05-21 14:34:44,803 INFO    MainThread:12164 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout

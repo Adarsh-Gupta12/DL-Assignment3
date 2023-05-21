@@ -1,0 +1,5 @@
+2023-05-21 14:31:22,610 INFO    StreamThr :14652 [internal.py:wandb_internal():87] W&B internal server running at pid: 14652, started at: 2023-05-21 14:31:22.599797
+2023-05-21 14:31:22,610 DEBUG   HandlerThread:14652 [handler.py:handle_request():144] handle_request: status
+2023-05-21 14:31:22,635 INFO    WriterThread:14652 [datastore.py:open_for_write():85] open: C:\Users\adars\OneDrive\Desktop\code\PRML\Assignements\Assignment3\wandb\run-20230521_143122-g55n2o9c\run-g55n2o9c.wandb
+2023-05-21 14:31:22,635 DEBUG   SenderThread:14652 [sender.py:send():336] send: header
+2023-05-21 14:31:22,643 DEBUG   SenderThread:14652 [sender.py:send():336] send: run
