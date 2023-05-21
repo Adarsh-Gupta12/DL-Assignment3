@@ -16,3 +16,24 @@ The project is to
 * **testDatasetWordsWithoutAttention.txt:** It contains all the words (predicted and its actual transliteration on test dataset on the best model without attention
 * **testDatasetWordsWithAttention.txt:** It contains all the words (predicted and its actual transliteration on test dataset on the best model with attention
  
+## Instructions to train and evaluate various models
+
+1. Run the trainWithoutAttention.py using command line to model without attention and pass parameters which you want to set. Passing parameters is optional, if you don't want to pass parameters then it will take default hyperparameter values to train the model.
+Here is one example of the command to run trainWithoutAttention.py and train the model.
+
+`
+python trainWithoutAttention.py -wp "Assignment 3" -we "cs22m006" -es 128 -bs 256 --cell_type "LSTM" --epochs 20
+`
+
+2. Run the trainWithAttention.py using command line to model with attention and pass parameters which you want to set. Passing parameters is optional, if you don't want to pass parameters then it will take default hyperparameter values to train the model.
+Here is one example of the command to run trainWithAttention.py and train the model.
+
+`
+python trainWithAttention.py -wp "Assignment 3" -we "cs22m006" -es 128 -bs 256 --cell_type "LSTM" --epochs 20
+`
+
+3. After running the command, it will print accuracies and loss. It will also log accuracies and loss in wandb.
+
+4. **Pass wandb entity as your wandb username only, otherwise it will give error.**
+
+# Report Link
