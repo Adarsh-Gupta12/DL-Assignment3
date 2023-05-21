@@ -37,3 +37,4 @@ python trainWithAttention.py -wp "Assignment 3" -we "cs22m006" -es 128 -bs 256 -
 4. **Pass wandb entity as your wandb username only, otherwise it will give error.**
 
 # Report Link
+https://wandb.ai/cs22m006/Assignment%203/reports/cs22m006-s-CS6910-Assignment-3--Vmlldzo0NDI2MDQx?accessToken=hnlmuzppgs1jfdonyhvx0gfyhf1a7yd9ktyoydab95q0uacudd1rkxfwddfnkt7m
